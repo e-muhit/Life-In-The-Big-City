@@ -3,8 +3,8 @@ html, body{
 }
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    padding: 1rem;
+    font-size: 5rem;
+    padding: 3rem;
 }
 nav {
     text-align: right;
@@ -21,7 +21,7 @@ a {
 }
 header{
     background-color: black;
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid red;
     color: whitesmoke;
     margin: -35px 0 0 0;
 }
