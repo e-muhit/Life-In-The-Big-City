@@ -1,27 +1,48 @@
-html, body{
+body{
     margin: 0;
 }
-h1 {
+p {
+   font-family: 'Open Sans', sans-serif;
+}
+.header-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 3rem;
 }
-nav {
-    text-align: right;
+.navbar {
+    justify-content: right;
+    margin: -15px 0 0 0;
 }
-li {
-    display: inline-block;
-    list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
-    padding-right: 2rem;
+.page-header{
+    background: url('./images/nyc-skyline.jpg') no-repeat center;
+    background-size: cover;
+    color: black;
 }
-a {
-    text-decoration: none;
-    color: gold;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 70rem;
+    height: 40rem;
+    margin: 0 auto;
+    text-align: center;
 }
-header{
-    background-color: black;
-    border-bottom: 5px solid red;
-    color: whitesmoke;
-    margin: -35px 0 0 0;
+.home-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 7rem;
+}
+.home-info {
+    font-size: 3rem;
+}
+.profile-pic {
+    width: 20rem;
+    height: 20rem;
+    max-height: 30rem;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+.about-info{
+    display: flex;
+    align-self: center;
 }
