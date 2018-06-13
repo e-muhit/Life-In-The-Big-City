@@ -9,9 +9,25 @@ p {
     font-size: 3rem;
     padding: 3rem;
 }
-.navbar {
-    justify-content: right;
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
     margin: -15px 0 0 0;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: black;
+}
+a {
+    color: gold;
+}
+li {
+    display: inline-block;;
+    padding: 1rem;
 }
 .page-header{
     background: url('./images/nyc-skyline.jpg') no-repeat center;
@@ -45,4 +61,21 @@ p {
 .about-info{
     display: flex;
     align-self: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-image {
+    width: 50%;
+    height: 50%;
+    padding: 3rem;
+}
+.project-info { 
+    padding: 3rem;
+}
+.project-link {
+    color: darkblue;
 }
