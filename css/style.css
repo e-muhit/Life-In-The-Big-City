@@ -4,17 +4,16 @@ body{
 p {
    font-family: 'Open Sans', sans-serif;
 }
-.header-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    padding: 3rem;
+header {
+    margin: -35px 0;
 }
 nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
     background-color: black;
-    margin: -15px 0 0 0;
+    margin: -35px 0;
+    height: 5rem;
 }
 ul {
     display: flex;
@@ -24,10 +23,16 @@ ul {
 }
 a {
     color: gold;
+    text-decoration: none;
 }
 li {
     display: inline-block;;
     padding: 1rem;
+}
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    padding: 3rem;
 }
 .page-header{
     background: url('./images/nyc-skyline.jpg') no-repeat center;
@@ -65,7 +70,6 @@ li {
 
 .project-container {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .project-image {
@@ -77,5 +81,14 @@ li {
     padding: 3rem;
 }
 .project-link {
+    color: darkblue;
+}
+.contact-info {
+  padding: 5rem;
+  width: 25rem;
+  height: 50rem;
+  margin: 0 auto;
+}
+.contact-link {
     color: darkblue;
 }
