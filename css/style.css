@@ -89,6 +89,14 @@ li {
   height: 50rem;
   margin: 0 auto;
 }
+.contact-container {
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+.contact-container > img {
+    padding: .25rem;
+}
 .contact-link {
     color: darkblue;
 }
